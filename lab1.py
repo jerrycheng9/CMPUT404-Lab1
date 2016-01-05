@@ -1,5 +1,5 @@
-#!/usr/bin/eny python
+#!/usr/bin/env python
 
 import requests
 
-print requests._version_
+print requests.__version__
