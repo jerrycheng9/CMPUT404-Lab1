@@ -4,7 +4,7 @@ import requests
 
 print requests.__version__
 
-response = requests.get("http://google.ca")
+response = requests.get("http://www.google.ca")
 
 print response.status_code
 
